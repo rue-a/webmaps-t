@@ -1,0 +1,40 @@
+html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #map {
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .leaflet-bottom.leaflet-left {
+      width: 100%;
+    }
+
+    .leaflet-control-container .leaflet-timeline-controls {
+      box-sizing: border-box;
+      width: 100%;
+      margin: 0;
+      margin-bottom: 15px;
+    }
+
+    table,
+    th,
+    td {
+      background-color: white;
+      border: 5px solid black;
+      border-collapse: collapse;
+      height: 30px;
+      width: 100%;
+      padding: 0;
+    }
+
+    /* .vis-t {
+      height: 400px;
+    } */
+
+    .time-slider {
+      width: 100%;
+    }
